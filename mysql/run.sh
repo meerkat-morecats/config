@@ -1,3 +1,5 @@
+#!/bin/sh
+# 输入版本信息 一个参数
 mkdir conf data logs
 docker build . -t mysql_d1:$1
 docker stop mysql_d1
